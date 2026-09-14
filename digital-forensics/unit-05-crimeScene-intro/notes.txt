@@ -1,0 +1,34 @@
+Crime scene intro---
+--------------------------------
+
+Preparation for Searches--
+
+Before preparing a warrant to seize all or part of a computer system and the information it contains, it is critical to
+determine the computer’s role in the offense
+
+
+ex--
+A counterfeiter might use his computer, scanner and color printer to
+scan currency and then print money
+A drug dealer may store records pertaining to customers, prices and
+quantities delivered on a personal computer
+A blackmailer may type and store threatening letters in his computer
+Attackers often use their computers both to attack other’s computer
+systems and to store files
+
+
+Planning the Search and Seizure---
+incident
+case name 
+location
+applicable juridiction
+location of equipment
+who will be present in the location
+search and seizure type
+details of what is seized
+
+Role of First Responder---
+Essentially the first person notified and reacting to the security
+incident. First responder may be a network administrator, law
+enforcement officer or investigating officer
+
