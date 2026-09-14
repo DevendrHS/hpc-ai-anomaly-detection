@@ -1,0 +1,40 @@
+Digital forensics------
+--------------------------------------
+
+What is Digital Forensics?
+
+ gathering evidence, from computing equipment and various
+storage device and digital media, that can be presented in a court of law in a coherent and meaningful format.
+
+Why do we need Digital Forensics?
+
+1.legal proceeding
+2.identify weakness
+3.recovering data
+4.identify attackers
+
+Types of Digital Forensics?
+
+disc forensics
+network forensics
+live forensics
+mobile forensics
+
+
+What is Digital Evidence?
+
+any information of probative value that is either
+ stored or transmitted in a digital form”
+
+
+Characteristics of Digital Evidence or Rule of Digital Evidence---
+
+The digital evidence must have some characteristics to be disclosed in the court of law
+
+authentic
+complete
+admissable
+believable
+reliable
+
+
