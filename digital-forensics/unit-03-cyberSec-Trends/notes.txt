@@ -1,0 +1,183 @@
+Current trend of Cyber Security, Threats and Crime----------
+----------------------------------------------------------------------
+
+01- Cyber Crime, Threat and Risk
+02- Classification of Cyber Crime
+03- Cyber Criminal and its roles
+05- How to prevent Cyber Attacks?
+04- Cyber Security and its importance
+06- How to Report Cyber Crime?
+
+cyber crime--
+any unlawful acts wherein the computer act as toolor either as target or both..
+
+Global Cyber Trends : The Next Wave
+
+recent studies reveal three  major findings--
+
+1.Growing threat to national security-----
+Web espionage becomes increasingly advanced, moving from
+curiosity to well-funded and well-organized operations aimed
+at not only financial, but also political or technical gain
+
+
+2.Affecting individuals and industry because of growth of
+sophistication of attack techniques
+
+3.Emergence of a sophisticated market for software flaws --
+That can be used to carry out espionage and attacks on Govt.
+and Critical information infrastructure. Findings indicate a
+blurred line between legal and illegal sales of software
+vulnerabilities
+
+
+NCRB Cyber Crime Record 2017--
+
+1. India recorded 21,796 cyber crimes in 2017,
+an increase of 77% from 2016.
+
+2. Countrywide, 1.7 cyber crimes were
+committed per one lakh population in 2017.
+
+3. Over half the crimes were committed to gain
+money by fraudulent means.
+
+4. New crime heads such as cyber blackmailing,
+cyber stalking, and dissemination of fake news
+were introduced in the 2017 NCRB report.
+
+
+
+Cyber Threats---
+1.national level
+2.organization level
+3.individual level
+
+What is at Risk?--
+
+accounts/credentials--
+.Email Account (Personal/Corporate)
+• E-Commerce (Online Shopping,
+Ticketing etc.
+• Banking/Credit Card
+• Intranet Portal
+• System/Network/Domain
+• Client Side Encryption Certificates
+
+information disclosure---
+• Official and Personal Documents
+• Personal Pictures
+• Messages/Chats
+• Contact Lists
+• Email Account Harvesting
+• License Keys
+
+
+Classification of Cyber Crime--
+1.against Person
+2.against property
+3.against organization
+4.against society at large
+
+Classification of Cyber Crime--
+
+cyberbullying
+cyberstalking
+ransomware
+identity theft
+IRS fraud
+
+
+Types of Cyber Attacks--
+DOS
+phishing
+harassment
+hacking
+salami attack
+email spoofing
+
+
+Web Based Attack Vectors--
+injection
+broken access control
+sensitive data exposure
+broken authentication
+cross site scripting
+
+Cyber Weapons---
+
+viruses
+worm
+trojan horse
+logic bomb
+
+Cyber Criminals--
+A cybercriminal is an individual who commits cybercrimes, where
+he/she makes use of the computer either as a tool or as a target or as
+both.
+
+Cybercriminals use computers in three broad ways--
+1.target
+2.Weapons
+3.accessory
+
+
+Cyber Security---
+
+Cyber security is the practice of protecting systems, networks, and
+programs from digital attacks.
+
+These attacks are usually aimed at accessing, changing, or destroying sensitive information, extorting
+money from users; or interrupting normal business processes.
+
+Roles of Cyber Criminals---
+programmers
+cashiers
+hackers
+leaders
+it expert
+tellers
+distributors
+
+
+How to Prevent Cyber Attack?
+
+Use Strong Passwords: Use the different password and username combinations for different accounts and
+resist the temptation to write them down.
+
+Keep Your social media accounts private: Be sure that you keep your social networking profiles (Facebook,
+Twitter, YouTube, etc.) private. Be sure to check your security settings.
+
+Secure your Mobile Devices: Many people are not aware that their mobile devices are also vulnerable to
+malicious software, such as computer viruses and hackers.
+
+Protect your data: Protect your data by using encryption for your most sensitive files such financial records
+and tax returns.
+
+Protect your identity online: When it comes to protecting your identity online it is better to be too cautious. It
+is critical that you be cautious when giving out personal ID such as your financial information on the Internet.
+
+Keep your computer current with the latest patches and updates: One of the best ways to keep attackers
+away from your computer is to apply patches and other software fixes when they become available.
+
+Protect your computer with security software: Several types of security software are necessary for basic
+online security. Security software essentials include firewall and antivirus programs
+
+
+How to Report Cyber Crime in India?
+
+1.The first step is to file a complaint at the cyber crime cell in a
+police station of the city where the crime has taken place, or
+where the device is located which was affected.
+
+2.You can go to the police station of your state or send an mail
+to the Police as they will forward your complaint to the Cyber
+Cell or you can directly mail the complaint to cyber cell.
+
+3.if the crime is against children or women, it can be directly
+reported to CCPWC Forensic Lab, which is dedicated for
+cyber crime protection against women and children in every
+state.
+
+4. One can also file a complaint using online portal such as
+www.cybercrime.gov.in.
