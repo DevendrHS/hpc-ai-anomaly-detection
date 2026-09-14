@@ -1,0 +1,125 @@
+computer network--
+when two or more computer joined together and they capable of shared info, they form a network
+
+why do we need computer network?
+.file sharing
+.hardware sharing
+.application sharing
+.user communication
+.reduced cost
+.reliability
+
+type of network--
+   based on--
+   .size
+   .network topology
+   .connection
+
+   based on size--
+   .PAN
+   .LAN
+   .MAN
+   .WAN
+
+   based on topology---
+   physical way in which computer are interconnected---
+
+   .Star--organization that require centalized data base or centalized processing facility
+   .Bus--single cable run in the campus an deach node are linked along with communication line
+   .tree--connect one star to another star network
+   .ring--network cable pass one node to another untill node are connected in the loop
+   .mesh--random connection of node using communication linked
+
+   classifying network by component roles--
+
+   .peer-to-peer network--each peer behave as client as well as server simultenous
+   .server based network--server based network that control all peer and peer can act both as client and server
+   .client based network--The client does some work by itself and asks the server for help when it needs more processing power.
+
+
+
+   type of network communication--
+
+   .unicast
+   .broadcast
+   .multipoint
+
+   different type of network connectivity--
+
+   1.Broadband = Fast Internet access at fixed location
+   .Purpose = Connect users/organizations to the Internet efficiently
+   .Use = Home, office, education, healthcare, research, cloud, etc.
+
+  2.mobile internet--Mobile Internet provides wireless Internet access from different locations
+   using cellular networks such as 4G and 5G.
+
+  3.VPN--(virtual privatenetwork)--VPN creates a secure private connection over a public network, 
+  commonly using tunneling techniques.
+  Public Internet + Secure Tunnel = VPN 
+
+  4. Dial-up network---Dial-up networks use analog modems and ordinary telephone lines to establish TCP/IP communication,
+   while X.25 was an older packet-switched protocol used for long-distance networking.
+
+
+   type of network link--
+
+   wired technologies--
+   
+   .coaxial--is a type of copper cable used to carry electrical signals.
+   .twisted pairs--Twisted-pair cable consists of pairs of copper wires twisted around each other
+    A common Ethernet cable has 4 pairs = 8 copper wires.
+
+   .optical fiber--Optical fiber is made mainly from glass (or sometimes plastic) and carries data as pulses of light.
+
+   wireless technologies--
+
+   .terestrial microwave
+   .communication satellite
+   .cellular network
+   .radio & spread spectrum technologies
+   
+
+   Internet protocol address--IP Address----
+
+   It is the unique numerical address of a device in a computer network that uses Internet Protocol for
+communication.
+• Allow you to pinpoint a particular device from the billions of devices on the Internet.
+
+.Static--A fixed IP address that normally does not change
+.Dynamic--A temporary IP address that is automatically assigned and may change.
+.private--An IP address used for communication inside a local/private network.
+.Public--An IP address used for communication over the Internet/outside the local network.
+
+  Internet protocol version---
+  .IPv4
+  .IPv6
+
+  internet protocol classes--
+  .class A (1 to 126)
+  .class B (128-191)
+  .class C (192-223)
+  .class D (224-239)
+  .Class E (240-255)
+
+  Domain Name--
+  .Domain name is a way to identify and locate computers connected to internet
+• No two organizations can have same domain name
+
+Domain name system--
+
+ DNS translates domain names to IP addresses so browsers can load Internet resources
+
+   World Wide Web--
+
+   web--It is the collection of linked documents or pages, stored on millions of computers and distributed
+across the world.
+
+basic term of www---
+
+• Web Pages: A document or information resource that can be accessed through a web browser and displayed on a monitor or mobile
+device.
+• Web Sites: A set of related Web Pages linked through hypertexts links.
+• Uniform Resource Location (URL): Unique address that identifies its location on the internet.
+  
+  web hosting---
+  

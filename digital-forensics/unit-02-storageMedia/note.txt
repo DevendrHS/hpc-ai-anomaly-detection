@@ -1,0 +1,168 @@
+Storage media & media interface----
+----------------------------------------------
+
+01--introduction to storage device and its type
+02--primary storage
+03--secondary storage
+04--tertiary storage
+05--offline storage
+06--connector and interface
+
+-------------------------------------------------
+storage device--tech that contain computer component and 
+recording media that are used to retain digital data
+
+
+type of storage device---
+1.primary--directly accessible to the cpu.
+2.secondary--The computer usually uses its I/O channels to access
+secondary storage and transfer
+the desired data to primary
+storage.
+3. tertiary---t is a level below secondary
+storage. It is primarily used for
+archiving rarely accessed
+information.
+4.offline storage--The medium is recorded and then
+physically removed or
+disconnected. It must be inserted
+or connected by a human
+operator before a computer can
+access it again.
+
+
+primary storage---------
+
+• It is directly accessible to the CPU.
+• These are volatile in nature.
+• The access time of these devices is very fast.
+ex cache,RAM,random
+
+RAM----
+• It is a read/write memory. Information can be written into and read from RAM.
+• It is a volatile memory.
+
+ROM---
+• This memory is used as the computer begins to boot up.
+• ROM memory cannot be easily or quickly overwritten or modified
+
+cache---
+The cache is a temporary storage space used to
+improve the performance of a computer. 
+
+Types of Cache Memory--
+
+modern computers use 3 types of cache, including
+cache memories L1, L2, and L3.
+• The L1 cache or primary cache is the fastest of the
+previous 3 categories.
+• The L2 cache or secondary cache is also internal to
+the processor. Its role is to support the L1 cache by
+storing information that cannot be stored there.
+• The L3 cache is a memory external to the processor
+and it is found especially on high-end processors or
+those who equip servers.
+
+secondary storage---
+
+• Hard Disk Drive
+• Solid State Drive
+
+• Hard Disk is a non-volatile, random access digital
+data storage device used in any computer system
+• The data is recorded magnetically onto the hard
+disk
+• Main components of the hard disk
+• Cylinders
+• Head
+• Platter
+• A high speed spinning platter is used as recording
+media and data is stored on the tracks of the
+sectors
+
+
+   adressing and geomtry of hard disk drive------
+
+   Externally, hard drives expose a large number of sectors
+(blocks)
+• Typically 512 or 4096 bytes
+• Individual sector writes are atomic
+• Multiple sectors writes may be interrupted (torn write)
+Drive geometry
+• Sectors arranged into tracks
+• A cylinder is a particular track on multiple platters
+• Tracks arranged in concentric circles on platters
+• A disk may have multiple, double-sided platters
+Drive motor spins the platters at a constant rate
+• Measured in revolutions per minute (RPM)
+
+type of hard disk interface---
+1.USB
+2.ATA
+3.SCSI
+4.Fiber channels
+5.EIDE
+
+Solid-State Drive (SSD)-----
+SSD is a data storage device that uses solid state memory to store data
+and provide access to store data in the same manner as HDD drive
+
+It uses microchips to hold data in non-volatile memory chips
+and does not contain any moving parts
+
+It is very expensive and supports a restricted number of writes over
+the life of the device
+
+It uses two memories:
+•NAND-based flash memory : It retains memory even without power
+•Volatile RAM: It provides faster access
+
+Tertiary storage----
+• Typically, it involves a robotic mechanism which
+will mount (insert) and dismount removable mass
+storage media into a storage device
+• It is primarily used for archiving rarely accessed
+information since it is much slower than secondary
+storage (e.g. 5–60 seconds vs. 1–10 milliseconds).
+• This is primarily useful for extraordinarily large data
+stores, accessed without human operators
+
+example---
+1.magnetic tape
+2.optical disk
+
+magnetic tape---
+Magnetic tapes consist of a thin plastic strip that has a magnetic coating, on which data can be
+stored.
+• Tapes are commonly used to back up data on network servers and individual computers.
+
+optical disk--
+An optical disc is an electronic data storage medium that can be written to and read from using a lowpowered laser.
+The most common types of Optical media are:
+1.compact disk
+2.DVD
+
+offline storage---
+Offline Storage
+• Also known as disconnected or removable storage
+• Is a computer data storage on a medium or a device
+that is not under the control of a processing unit.
+• It must be inserted or connected by a human operator
+before a computer can access it again.
+
+example--
+• Floppy Disk
+• Zip Diskette
+• USB Flash Drive
+• Memory Card
+
+connector and interface--
+
+• SCSI Connection
+• PATA Conection
+• SATA Coonection
+• eSATA Connection
+• USB Connection
+• Firewire Connection
+
+
