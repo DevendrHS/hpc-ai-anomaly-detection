@@ -1,0 +1,68 @@
+OSINT & CYBER THREAT INTELLIGENCE---
+
+
+OSINT (OPEN SOURCE INTELLIGENCE)
+
+why we use OSINT---
+
+.Journalism
+.Pentesting
+.Missing Person
+.Corporate Espionage
+
+
+WAYS TO USE OSINT--
+
+.Search Engine Using Search Operator
+example--using filter for searching relevent data from huge data
+
+
+IMAGE LOOKUP---
+
+tools and searching engines
+.Google Images
+.yandex
+.tinEye
+.ExifTools
+
+
+EMAIL TRACING
+
+.hunter.io 
+.emailRepo
+.maigret
+
+PHONE NO. TRACING
+
+.truecaller
+.epios
+.emobiletracker
+
+SOCMINT---
+.sherlock
+.whatsmyName
+.socialscan
+
+DIGITAL FOOTPRINTING
+
+.maltego
+.spiderfoot
+.whitepages.in
+
+
+CTI--Cyber Threat INTELLIGENCE
+
+TACTICAL INTELLIGENCE---
+Focus: Immediate, technical info (e.g., malware hash, phishing URLs)
+
+
+STRATEGIC INTELLIGENCE--
+Focus: Long-term threat trends, geopolitical risks, and business
+risks.
+
+
+THREAT ACTOR PROFILING--
+Understanding the motivations, methods, and targets of threat
+groups.
+
+.elasticSearch
