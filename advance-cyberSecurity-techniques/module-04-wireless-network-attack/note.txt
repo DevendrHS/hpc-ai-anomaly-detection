@@ -1,0 +1,232 @@
+WIRELESS NETWORK Attacks---
+
+WHAT IS WIRELESS COMMUNICATION---
+
+Wireless communication allows data
+transmission over air using radio frequency
+(RF) waves.
+
+No physical cables; enables mobility and
+flexibility.
+
+
+WIRELESS STANDARDS (IEEE 802.11)
+
+The IEEE 802.11 family defines the standards
+for Wireless Local Area Networks (WLANs),
+commonly known as Wi-Fi.
+
+
+WIRELESS STANDARDS (IEEE 802.11)
+
+
+
+
+
+
+
+
+
+
+COMMON WI-FI
+ATTACKS---
+
+MAC Spoofing
+Rogue Access Point (AP)
+Evil Twin Attack
+Packet Sniffing
+Deauthentication (Deautho) Attack
+Replay Attack
+WPS Bruteforce Attack
+
+MAC SPOOFING
+
+
+definition: Attacker changes their
+device's MAC address to impersonate
+another device on the network.
+Purpose: Bypass MAC filters or
+impersonate a trusted device.
+Example: A device spoofing an
+authorized MAC to connect to a secure
+Wi-Fi network.
+
+MAC Spoofing –
+Mitigation----
+
+
+Use Port Security: Limit devices by MAC
+address using switches.
+Implement 802.1X Authentication: Prevent
+unauthorized device access.
+Monitor for MAC address anomalies: Use
+network monitoring tools to detect duplicate
+or unexpected MACs.
+Use strong WPA2/WPA3 security: To ensure
+MAC spoofing alone won’t help bypass
+authentication
+
+
+
+ROGUE ACCESS
+POINT (AP)----
+
+
+Definition: An unauthorized AP
+connected to the network, either by
+an attacker or insider.
+Purpose: Bypass network security or
+capture traffic.
+Example: An employee plugs in a WiFi router without permission
+
+
+
+Rogue Access
+Point – Mitigation
+
+
+Use Wireless Intrusion Detection Systems
+(WIDS): Detect unauthorized APs.
+Network Segmentation: Isolate wireless from
+critical assets.
+Regular Wireless Audits: Scan for unknown
+SSIDs and BSSIDs.
+Disable unused ports: Prevent physical rogue
+AP connections
+
+
+EVIL TWIN
+ATTACK
+
+
+Definition: Attacker sets up a fake AP with
+the same SSID as a legitimate network.
+Purpose: Trick users into connecting and
+stealing data.
+Example: A user connects to
+"Company_WiFi" at a cafe, unaware it’s a
+malicious clone
+
+
+
+
+Evil Twin Attack –
+Mitigation
+
+
+User Awareness Training: Teach users not to
+connect to unknown SSIDs.
+Use VPNs: Prevent data exposure on
+malicious APs.
+WIDS/WIPS: Detect and block duplicate or
+spoofed SSIDs.
+Use Certificates for Authentication: EAP-TLS
+prevents credential reuse
+
+
+PACKET
+SNIFFING
+Definition: Capturing and analyzing
+network traffic using tools like
+Wireshark.
+Purpose: Intercept sensitive data like
+usernames and passwords.
+Example: Attacker in a café captures
+traffic on an open Wi-Fi network
+
+
+
+Packet Sniffing –
+Mitigation
+
+
+
+Use Strong Encryption: Always enable WPA2
+or WPA3 (not WEP).
+Use VPNs: Encrypt data even if sniffed.
+Secure Physical Access: Prevent attackers
+from being near the network.
+Monitor for promiscuous mode devices: Tools
+like Nmap can detect sniffers
+
+
+
+
+DEAUTHENTICATION
+ATTACK
+Definition: Attacker sends spoofed
+deauth frames to disconnect devices
+from APs.
+Purpose: Force reconnection to
+malicious APs or disrupt service.
+Example: An attacker continuously
+kicks users off the Wi-Fi, redirecting
+them to an Evil Twin.
+
+
+
+
+Deauthentication
+Attack –
+Mitigation
+
+Use WPA3 or Protected Management Frames
+(PMF): Encrypts management frames.
+Deploy WIPS: Detect and block fake deauth
+packets.
+Use Ethernet for critical systems: Wired is
+immune to Wi-Fi attacks.
+Monitor for anomalies: Sudden mass
+disconnections may signal a deauth attack.
+
+
+
+REPLAYATTACK
+Definition: Attacker captures valid data
+packets and retransmits them to repeat
+a valid session
+.
+Purpose: Reuse authentication tokens
+or commands.
+Example: Replaying a login handshake
+to gain access
+
+
+Replay Attack –
+Mitigation
+
+
+Use Timestamping and Nonces: Prevents
+reuse of old packets.
+Use secure protocols: WPA2/3 with AES
+resists replay attacks.
+Session Expiry Mechanisms: Short session
+lifetimes limit replay potential.
+
+
+WPSBRUTEFORCE
+ATTACK
+Definition: Brute-forcing an 8-digit WPS
+PIN to gain Wi-Fi access.
+Purpose: Exploit the WPS protocol to
+connect without knowing the
+password.
+Example: Tools like Reaver try
+thousands of PIN combinations to
+crack WPS.
+
+
+
+WPS Bruteforce
+Attack –
+Mitigation
+
+
+Disable WPS: It's a major vulnerability in
+many routers.
+Firmware Updates: Patch known WPS
+vulnerabilities.
+Use Strong WPA2/WPA3 Passphrases: WPS
+shouldn’t be the only protection.
+Lockout Mechanism: Enable PIN entry limits
+or delays.
