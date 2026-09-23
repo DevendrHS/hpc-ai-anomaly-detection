@@ -1,0 +1,307 @@
+     AI cyber threats----
+
+     1 .Weaponisation of deepfakes
+
+. Political manipulation
+. Disinformation Campaigns
+• Defamation
+• Fake pornographic videos
+• Manipulated content to ruin reputations
+• Deepfake audio/video
+• Impersonation of friends, family, or colleagues to gain access to secure systems
+  or information.
+• Terrorism & Psychological Operations
+• Terrorist groups could fake videos of attacks or executions to spread fear or
+propaganda
+
+
+2 .Malicious AI bots and malware
+
+.AI bots
+.social engineering bots
+.chatbot impersonation
+.social media
+
+
+• AI malware:
+• Phishing: AI can make realistic fake websites, emails, messages that can be used
+to trick users.
+• AI can be trained to make malwares easily and efficiently
+
+3. AI in phising & social engineering
+
+
+
+        INTERNET OF THINGS THREATS------------
+
+1 .Botnet attacks(Ddos)
+
+
+• What is botnet?
+⚬ A botnet is a network of devices infected with malware and
+controlled by a hacker (also called a botmaster). These devices
+can be: Computers/ Smartphones/ IoT devices
+
+• Why IoT Devices?
+⚬ IoT devices are often:
+⚬ Poorly secured (default usernames/passwords)
+⚬ Always online
+⚬ Widely distributed
+⚬ This makes them perfect targets for building botnets.
+
+
+How an IoT Botnet DDoS Attack Works
+
+• Infection:
+⚬ Hacker scans the internet for vulnerable IoT devices
+⚬ Installs malware (like Mirai) to take control of the device.
+
+• Command and Control (C&C):
+⚬ All infected devices (bots) communicate with a central server controlled by
+the hacker.
+
+• DDoS Attack Execution:
+⚬ The botmaster commands thousands (or millions) of infected IoT devices to
+flood a target (website, server, network) with traffic.
+⚬ This overwhelms the target, making it slow or completely offline
+
+
+2 .Hardware trojans----
+
+• What Is a Hardware Trojan?
+⚬ A Hardware Trojan (HT) is a malicious change intentionally inserted into an
+integrated circuit (IC) at any stage of its design, manufacturing, or
+deployment.
+⚬ Two main parts:
+￭ Trigger: A specific event or condition that activates the Trojan (e.g., a
+timer, specific input)
+￭ Payload: The malicious effect (e.g., leaking data, disabling device,
+backdoor access)
+
+
+Why Are IoT Devices Vulnerable to hardware trojans?
+• IoT devices often:
+⚬ Use third-party or offshore chip fabrication services
+⚬ Lack rigorous hardware validation
+⚬ Operate in resource-constrained environments, making it hard to run security checks
+⚬ This makes them high-risk targets for HT insertion.
+• Threat Scenarios in IoT
+⚬ Data Leakage: A Trojan transmits sensor data (like audio or video) secretly.
+⚬ Kill Switch: Attacker disables a smart device remotely during a critical moment.
+⚬ Backdoor Access: Trojan enables unauthorized remote access to the IoT system.
+⚬ Subtle Malfunctions: Smart thermostat reads wrong temperature; medical device
+gives incorrect dosage.
+
+
+
+3.Tampering
+
+Forms of iot tampering---
+
+Physical Tampering: Direct access to the hardware to modify, replace, or
+reprogram it
+eg: Opening a smart meter to alter power usage reports
+Firmware Tampering: Altering firmware to change how a device behaves
+eg: Injecting malicious code into a surveillance camera
+Sensor Spoofing: Tricking sensors into reading false data
+eg: Using magnets to fool temperature sensors
+Network/Data Tampering: Modifying data in transit
+eg: Man-in-the-middle attack changing medical readings
+Interface Tampering: Exploiting exposed ports like USB, JTAG, UART
+eg: Dumping data or flashing new firmware via debug ports
+
+
+
+4 .Eavesdropping(IP devices)
+
+Eavesdropping means secretly listening to or watching data communication between
+ devices without the sender or receiver knowing.
+
+ IP Devices Commonly Targeted
+• IP Cameras
+• Smart Assistants
+• Smart TVs & Speakers
+• IoT Gateways
+
+Forms of techniques used in eavesdropping
+
+• Packet Sniffing: Captures data packets using tools like Wireshark.
+• Man-in-the-Middle (MITM: Attacker sits between device and server to monitor
+or redirect traffic.
+• Rogue Access Points: Mimic legitimate Wi-Fi networks to lure devices.
+• Side-Channel Analysis: Exploits unintended information leakage, like radio
+emissions.
+
+
+Impact of Eavesdropping
+
+.privacy
+.credential theft
+.surveillance
+
+
+
+How to Prevent Eavesdropping
+
+• End-to-End Encryption (E2EE)
+• VPN or Encrypted Tunnels
+• Secure Wi-Fi Networks
+• Disable Unused Ports & Services
+• Regular Firmware Updates
+• Device Authentication
+
+
+
+CLOUD SECURITY THREATS-----------
+
+
+
+1 .Public Access leaks
+
+A public access leak happens when a cloud storage object (e.g., S3 bucket, Azure
+Blob, Google Cloud Storage) or service is exposed to the entire internet.
+This leak can either be intention or unintentional:
+• Intentionally
+• Accidentally
+
+How does this leaks happen---
+
+• Misconfigured Permissions: Bucket marked "public" or ACLs allow everyone
+to "read" or "list"
+• Overly Permissive Automation Scripts: DevOps scripts deploy resources
+with public access unintentionally
+• No Monitoring or Alerts: Teams unaware that exposure has occurred
+• Ignoring Cloud Security Best Practices: No access policies, encryption, or
+IAM controls applied.
+
+
+2 .Cloud Cryptojacking---
+
+Cloud cryptojacking means an attacker secretly uses someone else's cloud computer to mine cryptocurrency.
+
+Why is it dangerous?
+
+.high cloud cost
+.performance drop
+.security risk
+.attack vector
+
+
+how it happen--
+
+ Scripts
+An attacker may create a malicious script that automatically starts the mining program.
+
+ Cron Jobs
+A cron job is a Linux feature that automatically runs commands at scheduled times
+
+3 .Cloud Ransomware---
+
+What is Cloud Ransomware?
+• Cloud ransomware is a variant of ransomware that targets cloud infrastructure,
+including:
+• Cloud storage
+• Virtual machines and databases
+• SaaS platforms
+• Cloud backup systems
+• The attack may encrypt files, delete backups, or even steal
+
+
+Common Attack vendors
+. Phishing & Credential Theft
+.Misconfiguration 
+Meaning: A cloud service is configured incorrectly and accidentally exposed to the internet.
+
+.API Abuse
+
+.Vulnerable VMs 
+Meaning: A virtual machine has security weaknesses or outdated software.
+
+
+
+4 .Insecure APIs--------------
+
+• An insecure API is an application programming interface that lacks proper
+authentication, authorization, encryption, or input validation.
+• These flaws can be exploited to:
+• Access sensitive cloud resources
+• Bypass authentication
+• Inject malicious payloads
+• Hijack entire cloud accounts (admin or user)
+
+
+How Insecure APIs Lead to Cloud Account Hijacking--
+
+.Missing Authentication
+.Broken Access Control 
+Meaning: The API checks that you are logged in,
+ but doesn't properly check what you are allowed to access.
+
+.Injection Attacks
+.Improper Rate Limiting
+
+
+
+
+5 .Supply Chain Attack via Cloud Integration--
+
+It means an attacker doesn't directly attack your cloud system. Instead, they attack a third-party service, software, API, 
+or library that your cloud system trusts.
+
+How Cloud Integrations Are Exploited
+
+• Compromised APIs/SDKs
+• Malicious NPM/PyPI Packages
+• Third-Party CI/CD Tools
+• Container Registries
+• Identity Provider Breach
+• Default App Permissions
+
+Why These Attacks Are So Dangerous---
+
+• Stealthy: Attackers piggyback on trusted tools and services
+• Automatic Propagation: Vulnerabilities can spread through updates or
+automation
+• High Privilege Access: Third-party tools often have full access to data or
+environments
+• Hard to Detect: Looks like normal activity from a "trusted" source
+
+
+What is Digital Arrest?
+
+Digital Arrest is a cyber scam where fraudsters
+impersonate law enforcement or government
+officials, threatening victims with fake arrest
+warrants and illegal activity charges to extort
+money or personal information
+
+
+The Modus Operandi
+
+he scam usually starts with an unexpected call or
+message from someone claiming to be police, CBI,
+or cybercrime authorities, accusing the target of
+crimes like money laundering or fraud and using
+fabricated evidence to support their claims.
+
+
+Psychological Manipulation Tactics
+
+Tools and Technology
+Used
+
+Victim Isolation
+
+Demand for Money and Sensitive
+Information
+
+
+Emotional and Financial Impact
+
+
+Prevention and Response strategies--
+Key defences include public awareness, verifying
+caller identity, not sharing sensitive information or
+making payments in panic, reporting suspicious calls
+to authorities, and demanding stronger
+cybersecurity policies
