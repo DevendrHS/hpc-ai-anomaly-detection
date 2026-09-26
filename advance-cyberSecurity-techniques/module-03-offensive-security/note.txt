@@ -1,0 +1,218 @@
+OFFEENSIVE SECURITY & ETHICAL HACKING----
+---------------------------------------------------
+WHAT IS cyber security?
+refers to the discipline of
+protecting digital technology—such as
+computers, servers, networks, mobile
+devices, and data—from threats and
+unauthorized activities
+
+WHAT CYBER
+SECURITY
+INVOLVES
+
+Securing computers and servers from malicious software
+and external threats.
+
+
+WHY IS
+CYBERSECURITY
+IMPORTANT
+FOR LAW
+ENFORCEMENT ?
+
+TO PROTECT SENSITIVE DATA---
+
+Police systems store personal
+information like:
+• Criminal records, witness
+statements, surveillance footage,
+case files
+If leaked or hacked, it can:
+• Endanger lives
+• Spoil investigations
+• Reduce public trust
+Cybersecurity keeps this data safe
+from unauthorized access.
+
+
+TO INVESTIGATE CYBERCRIMES---
+
+Cybercrimes often involve
+international actors.
+Law enforcement needs to
+collaborate with Interpol, CERT-In,
+FBI, Europol, etc.
+Cybersecurity ensures:
+• Secure information sharing
+• Protection of digital evidence
+• Smooth international cooperation
+
+
+CIA TRIAD---
+ It represents three main goals: Confidentiality,
+Integrity, Availability.
+
+how we protect data and
+build secure systems.-----
+
+
+CONFIDENTIALITY---
+ensure only authorized user can view or access data
+
+INTEGRITY
+Definition: Ensuring data is accurate and not tampered with
+
+
+AVAILABILITY
+Definition: Ensuring data, systems, and services are always accessible.
+
+
+VULNERABILITY ASSESSMENT &
+PENETRATION TESTING (VAPT)
+
+
+￭ VAPT is a combined approach of two techniques:
+• Vulnerability Assessment (VA) – Finding weaknesses.
+• Penetration Testing (PT) – Exploiting weaknesses like a hacker
+would.
+￭ Both are used to check the security of systems, networks, and
+applications, but each has a different purpose and depth.
+
+
+VAPT EXAMPLE SCENARIO--
+
+Let’s say a company launches a new online payment app.
+
+The Vulnerability Assessment finds:
+• Outdated software on the web server
+• Missing HTTP security headers
+• SQL Injection possibility in the login page
+
+
+The Penetration Tester tries:
+• Exploiting the SQL Injection to bypass login
+• Gaining admin access to the backend
+• Downloading the customer database
+
+The report shows:
+• Real damage possible
+• How the attack was done
+• Fixes needed to patch the app
+
+
+PENETRATION TESTING
+LIFECYCLE--------
+1. PLANNING & RECONNAISSANCE
+2.SCANNING
+3.GAINING ACCESS
+4.MAINTAINING ACCESS
+5.ANALYSIS & REPORTING
+6.REMEDIATION & RE-TESTING
+
+
+PAYLOAD-----
+A payload is the actual action that happens
+ after an attacker successfully exploits a vulnerability.
+
+it could :
+￭ Steal data
+￭ Create a reverse shell
+￭ Open a backdoor
+￭ Run a command
+
+WHEN ARE PAYLOADS USED
+
+• During the Gaining Access phase of penetration testing.
+• After identifying a vulnerability that can be exploited.
+• Sent via exploit code or manually delivered once access is gained.
+
+PAYLOAD CRAFTING
+Payload crafting means preparing or modifying a payload so that it works properly
+ for a particular target or situation.
+
+Exploit → The method you use to open the door.
+Payload → What you carry/do after entering.
+Payload crafting → Preparing that payload specifically for that building.
+
+Payload-crafting tools 
+ tools that help security professionals create or modify payloads for penetration testing.
+
+
+ For your cybersecurity notes, remember:
+
+MSFVenom = Payload generator
+Veil = Payload obfuscation/evasion
+TheFatRat = Payload creation automation
+Shellter = Payload injection into executables
+
+
+EXPLOITATION
+TECHNIQUES----
+
+buffer overflow-
+A buffer overflow happens when a program receives more data than the memory area can hold, 
+causing the extra data to overwrite nearby memory.
+
+SQL Injection (SQLi)
+SQL Injection happens when an application incorrectly mixes user input with a database query, 
+allowing the input to change what the database query does.
+
+Cross-Site Scripting (XSS)---
+XSS happens when a website accepts malicious script as user input and then
+ displays/runs that script in another user's browser.
+
+
+Command Injection
+Command Injection happens when an application allows a user to insert operating system commands 
+through an input field.
+
+File Upload Exploit
+A File Upload Exploit happens when a website allows users to upload files
+ but does not properly check or restrict those files.
+
+ EXPLOITATION & PAYLOAD
+WORK TOGETHER--------
+
+
+Scan → Find weakness → Craft payload → Execute → Analyze impact
+
+Discovery → Exploitation → Post-Exploitation
+
+
+LATERAL MOVEMENT ---
+
+Lateral Movement means that after an attacker gets access to one computer, they try to move to
+ other computers or systems inside the same network.
+
+
+ IDENTITY & ACCESS MANAGEMENT---
+
+ IAM is a system that checks who you are and decides what you are allowed to access.
+
+
+ ACCESS CONTROL---
+ Access Control means deciding who is allowed to access what in a computer syste
+
+| Type                | Easy meaning                       |
+| ------------------- | ---------------------------------- |
+| **RBAC**            | Access based on **role**           |
+| **Least Privilege** | Give **minimum required access**   |
+| **DAC**             | **Owner** decides access           |
+| **MAC**             | **Security policy** decides access |
+
+
+CYBER LAWS----
+
+Cyber laws are legal rules that govern the use of computers, networks, the internet, 
+digital communication, and online activities.
+
+
+43 → Unauthorized computer/data activity
+66 → Criminal computer-related acts
+66C → Identity theft
+66D → Online impersonation/cheating
+67 → Obscene electronic material
+69 → Government interception/monitoring under specified conditions
+72 → Confidentiality & privacy
+
