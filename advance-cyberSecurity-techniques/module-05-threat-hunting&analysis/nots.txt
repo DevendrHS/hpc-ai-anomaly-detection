@@ -1,0 +1,250 @@
+THREAT HUNTING & MALWARE ANALYSIS---
+---------------------------------------
+Threat hunting is
+a proactive
+cybersecurity approach where
+analysts actively search for hidden
+threats, vulnerabilities, or malicious
+activity within networks and
+systems. It aims to detect and
+mitigate threats early, before they
+cause harm, using analytics, threat
+intelligence, and advanced
+
+
+threat hunting relevance in investigation----
+
+Threat hunting plays an important role in cyber crime investigation by proactively
+ detecting hidden threats, identifying evidence and IoCs, reconstructing attacker activity, and supporting incident response.
+
+
+  MALWARE ANALYSIS---
+
+  Malware analysis means examining malicious software to understand
+   what it does, where it came from, and what damage it can cause.
+
+   Malware = Malicious + Software
+   Malware is software intentionally designed to damage, disrupt, spy on, steal from, 
+   or gain unauthorized access to computer systems.
+
+
+   Static = Don't run it(examine without running)
+Dynamic = Run and observe it safely
+Hybrid = Both
+
+
+
+Indicator of compromises---
+
+Common examples of IOCs
+File Hash → A unique fingerprint of a suspicious file
+IP Address → An IP address associated with suspicious communication
+Domain Name → A suspicious website/domain contacted by malware
+URL → A suspicious web address
+Registry Changes → Unexpected changes to Windows Registry
+Suspicious Processes → Unusual programs/processes running on a system
+
+
+Malware → leaves traces → traces become IOCs → security team investigates
+
+
+MITRE ATTACK----
+MITRE ATT&CK is a knowledge base that documents how real-world attackers behave and
+ what techniques they use during cyber attacks.
+
+CYBER KILL CHAIN----
+
+The Cyber Kill Chain is a model used to understand the different stages of a cyber attack,
+ from the attacker's initial preparation to achieving their objective.
+
+ 1. Reconnaissance
+→ Attacker researches the company and employees.
+
+2. Weaponization
+→ Attacker prepares malicious content.
+
+3. Delivery
+→ Sends it through a phishing email.
+
+4. Exploitation
+→ The content exploits a weakness after being opened.
+
+5. Installation
+→ Malware becomes established on the computer.
+
+6. Command & Control
+→ Computer communicates with attacker-controlled infrastructure.
+
+7. Actions on Objectives
+→ Attacker accesses or steals company data.
+
+
+SANDBOX----
+Sandboxing is a cybersecurity technique where a suspicious or
+ malicious file is run in a safe, isolated environment so security 
+ researchers can observe what it does without affecting the real computer.
+
+ | Tool               | Purpose                             |
+| ------------------ | ----------------------------------- |
+| **Cuckoo Sandbox** | Automated malware analysis          |
+| **ANY.RUN**        | Interactive malware analysis        |
+| **Joe Sandbox**    | Automated malware behavior analysis |
+
+
+Role in Malware Analysis
+
+Suspicious file → Run in sandbox → Observe behavior → Detect malicious activity → Create signatures/IOCs → Support incident response
+
+
+Dwell time---
+Dwell time is the amount of time an attacker remains inside a compromised system or network before being detected.
+
+
+hunting frameworks---
+1.pyramid of pain
+2.mitre attack
+3.kill Chain
+
+pyramid pain
+1. Pyramid of Pain 🔺
+
+The Pyramid of Pain explains how difficult it is for
+ an attacker to change different types of Indicators of Compromise (IOCs) after defenders detect them.
+
+
+ | Framework            | Main Purpose                                              |
+| -------------------- | --------------------------------------------------------- |
+| **Pyramid of Pain**  | Understand which IOCs cause more difficulty for attackers |
+| **Cyber Kill Chain** | Understand the stages of an attack                        |
+| **MITRE ATT&CK**     | Understand attacker tactics and techniques                |
+
+
+Type of TH---
+
+Hypothesis-Driven Hunting
+Hunter starts with a specific assumption or question.
+Example: “Could an attacker be using stolen credentials in our network?”
+Then the hunter searches logs, endpoints, and network activity for evidence.
+IOC-Based Hunting
+Searches for known Indicators of Compromise (IOCs).
+Examples: suspicious IP addresses, domains, file hashes, or URLs.
+Example: checking whether a known malicious IP has communicated with company systems.
+TTP-Based Hunting
+Searches for attacker Tactics, Techniques, and Procedures (TTPs) rather than only specific IOCs.
+Often mapped to MITRE ATT&CK.
+Example: looking for suspicious credential-dumping behavior.
+Intelligence-Driven Hunting
+Uses threat intelligence about known attackers, malware, campaigns, or vulnerabilities.
+Example: if intelligence reports a new ransomware campaign, hunters search their environment for related behavior.
+Behavior-Based Hunting
+Looks for unusual or abnormal behavior rather than known signatures.
+Example: a normal user suddenly accessing hundreds of files at unusual hour
+
+
+USE CASE 1:
+Ye ek suspicious parent-child relationship ho sakta hai.
+
+Hunter phir investigate karega:
+
+cmd.exe kisne start kiya?
+Kaunsi command run hui?
+User ne kaunsa document open kiya?
+Uske baad kaunsa process start hua?
+Kya suspicious network connection hua?
+Kya system mein koi aur unusual activity hui?
+
+
+USE CASE 2--
+
+Aap RDP ke successful login events monitor karte ho.
+
+Suppose:
+
+Login: Successful
+Source: Unknown foreign GeoIP
+Time: 2:30 AM
+Destination: Company Server
+
+ Ye suspicious indicators ho sakte hain.
+
+Hunter check karega:
+
+Login kis user account se hua?
+Source IP kya hai?
+Source country/location organization ke expected pattern se match karta hai?
+Login kis time hua?
+Kya source workstation approved hai?
+Login ke baad user ne kya activities perform ki?
+Kya uske baad other systems par RDP hua?
+
+USE CASE 3:
+
+Example Hunting Use Case
+
+Suppose logs mein ye sequence dikhta hai:
+
+Successful Login
+       ↓
+Internal Network Access
+       ↓
+Security Service Stops
+       ↓
+Suspicious Activity
+
+Example:
+
+10:00 PM → Remote/Network login successful
+10:05 PM → Windows Defender service stopped
+10:07 PM → Suspicious process/activity
+
+ Ye sequence suspicious ho sakta hai.
+
+Threat hunter investigate karega:
+
+Login kis user ne kiya?
+Login kis system se hua?
+Kya user authorized tha?
+Defender/Firewall kisne stop kiya?
+Kis process ne service stop ki?
+Kya uske baad malware activity hui?
+Kya aur systems affected hue?
+
+
+USE CASE 4:
+
+Imagine office mein ek employee ne bola:
+
+“Har Monday 10 AM par backup automatically run hona chahiye.”
+
+Ye legitimate scheduled task hai. 
+
+Lekin agar koi unknown person secretly ek task create kare:
+
+Unknown Task
+     ↓
+Runs automatically
+     ↓
+Suspicious program
+
+to security team ko investigate karna chahiye
+
+
+
+
+Case Study End to End Threat Hunting Process---
+
+| Hypothesis | Hunter ka Main Question               |
+| ---------- | ------------------------------------- |
+| **H1**     | User ne malicious website visit ki?   |
+| **H2**     | Malicious file download hui?          |
+| **H3**     | Malware execute hua?                  |
+| **H4**     | Malware ne persistence banayi?        |
+| **H5**     | Malware ne C2 server se contact kiya? |
+| **H6**     | Sensitive data exfiltrate hua?        |
+| **H7**     | Data internet par leak hua?           |
+
+Threat hunting mein hunter directly “attacker present hai” assume nahi karta. Har hypothesis ko logs, endpoint data, network telemetry 
+aur other evidence se test karta hai.
+
+
+
