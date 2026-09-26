@@ -1,0 +1,175 @@
+DIGITAL FORENSICS & IR--
+------------------------------
+INCIDENT
+RESPONSE
+LIFECYCLE
+
+
+A systematic process to manage cybersecurity incidents
+Ensures quick detection, effective containment, and complete recovery
+Minimizes damage and restores normal operations efficiently
+Developed based on NIST ands SANS guidelines
+
+
+THE SIX PHASES OF
+INCIDENT RESPONS
+
+Preparation
+Detection and Analysis
+Containment
+Eradication
+Recovery
+Post-Incident Activity (Lessons Learned)
+
+
+
+PREPARATION
+
+
+Building the IR Plan
+
+Define response
+procedures, team roles,
+nad communication
+workflows to ensure
+wuick and coordinated
+action during incidents.
+
+
+Equipping the
+Response Team
+
+Form and train a skilled
+IR team. Provide
+necessary tools, access,
+and regular practice
+drills.
+
+Hardening Systems &
+Infrastructure
+
+Apply security patches,
+enforce configurations,
+and monitor networks
+to prevent exploitation.
+
+Ensuring Readiness &
+Communication
+
+Maintain updated
+contacts, backups, and
+clear communication
+channels for seamless
+coordination.
+
+
+DETECTION AND
+ANALYSIS
+
+
+Identifying
+Anomalies
+Continuously monitor
+systems and logs to
+detect unusual
+activiites, alerts, or
+behaviors that may
+signal an incident.
+
+Verifying the Incident
+Analyze alerts to
+confirm whether the
+event is truly a
+security incident or a
+false positive before
+escalation.
+
+Assessing Scope &
+Impact
+Determine which
+systems, data, or
+users are affected
+and estimate the
+potential business or
+operational impact.
+
+Documenting FIndings
+Record timelines,
+indicators of
+compromise, and
+initial observations for
+accurate reporting
+and later
+investigation.
+
+
+CONTAINMENT
+
+ERADICATION
+
+RECOVERY
+
+POST-IR ACTIVITY:
+LESSONS LEARNED
+
+Review the Incident
+Analyze how the
+incident was detected,
+contained, and
+resolved to identify
+strengths and
+weaknesses in the
+responses process.
+
+Identify Gaps
+Highlight policy,
+technical, or
+procedural
+shortcomings that
+allowed or prolonged
+the incident.
+
+Improve and Update
+Revise incident
+response plans,
+enhance controls, and
+train teams based on
+insights gained.
+
+TRIAGE IN
+INCIDENT RESPONSE
+
+Incident ko quickly check, classify aur prioritize karna, taaki security team decide kar sake ki
+ kaunsa incident kitna serious hai aur pehle kis par action lena hai.
+
+
+ PRIORITIZING
+BASED ON
+SEVERITY & IMPACT
+
+
+| Incident                            | Severity | Impact      | Priority |
+| ----------------------------------- | -------- | ----------- | -------- |
+| Failed login attempts               | Low      | Low         | Low      |
+| Malware on one workstation          | Medium   | Limited     | Medium   |
+| Employee account compromised        | High     | Significant | High     |
+| Ransomware on critical server       | Critical | Very High   | Critical |
+| Sensitive customer database exposed | Critical | Very High   | Critical |
+
+
+
+CLASSIFICATION &
+CATEGORIZATION
+OF INCIDENTS
+
+| Category                | Simple Meaning                              | Example                            |
+| ----------------------- | ------------------------------------------- | ---------------------------------- |
+| **Malware**             | Malicious software                          | Ransomware, Trojan                 |
+| **Phishing**            | Fake message/email se trick karna           | Fake bank login email              |
+| **Unauthorized Access** | Permission ke bina access                   | Stolen password se login           |
+| **Data Breach**         | Sensitive data unauthorized access/exposure | Customer database exposed          |
+| **DoS/DDoS**            | Service ko unavailable karna                | Website par huge traffic           |
+| **Insider Threat**      | Authorized person se harmful activity       | Employee copying sensitive data    |
+| **Web Attack**          | Web application ko target karna             | SQL Injection, XSS                 |
+| **Policy Violation**    | Security policy ka violation                | Unauthorized software installation |
+
