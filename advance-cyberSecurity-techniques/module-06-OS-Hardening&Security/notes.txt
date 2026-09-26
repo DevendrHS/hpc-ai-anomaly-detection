@@ -1,0 +1,53 @@
+OS HARDENING & SECURITY---
+-----------------------------------
+
+WHAT IS OS
+HARDENING?
+
+
+• OS Hardening = Securing your operating system.
+• It means reducing vulnerabilities and blocking attack paths.
+• Goal: Protect the system from hackers, malware, and
+misconfigurations.
+
+
+WHY IS IT
+IMPORTANT?
+
+Prevents unauthorized access.
+Protects sensitive data.
+Meets security standards (like GDPR, ISO, etc.).
+Reduces risk of system compromise.
+
+
+KEY CONCEPTS OF
+OS HARDENING
+
+• Least Privilege: Only give users the access they truly need.
+• Remove Unnecessary Services: Disable unused apps, ports, and
+features.
+• Regular Updates: Apply latest security patches.
+• Strong Passwords: Enforce complex password rules.
+• Enable Firewall & Antivirus.
+
+
+MORE HARDENING
+MEASURES
+
+ Limit Remote Access: Disable if not needed or secure it.
+• Use Encryption: Encrypt disk and secure communication.
+• Set File Permissions: Prevent unauthorized read/write.
+• Monitor Logs: Keep an eye on system activity.
+• Application Control: Allow only trusted apps
+
+
+EXAMPLE -
+LINUX OS HARDENING
+
+
+• Use ufw or iptables for a firewall.
+• Disable root SSH login.
+• Update packages with apt or yum.
+• Set file permissions using chmod and chown.
+• Use tools like SELinux or AppArmor for extra
+protection.
