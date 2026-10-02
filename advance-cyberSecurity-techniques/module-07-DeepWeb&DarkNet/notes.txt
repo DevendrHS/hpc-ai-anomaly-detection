@@ -1,0 +1,174 @@
+          Deep Web & DarkNet-----
+----------------------------------------------------------
+
+               Navigating the Unseen: An
+Investigator's Guide to the
+Deep & Dark Web
+
+
+Agenda:
+
+01
+Demystifying the Web
+Surface, Deep, and Dark Web layers
+
+02
+The Anonymity Triad
+Tor, I2P, and Cryptocurrency
+
+03
+Operating in the Shadows
+Legal and ethical guardrails
+
+04
+The Investigator's Toolkit
+OSINT and dark web forensics
+
+05
+Case Study
+Simulated marketplace takedown
+
+
+
+Key Objectives
+Differentiate between Surface, Deep, and Dark Web layers and their
+distinct characteristics
+Explain how Tor and cryptocurrency enable darknet ecosystems
+Identify critical legal considerations for conducting dark web
+investigations
+Utilize investigative tools including Tor Browser, dark web search engines,
+and OnionScan for intelligence gathering
+---------------------------------------------------------------------
+                        The Internet Iceberg: More Than Meets the Eye
+
+1. What is Surface Web?
+Surface Web is the part of the internet that anyone can access easily using
+ search engines like Google or Bing.
+
+
+2. What is the Deep Web?
+The Deep Web is the part of the internet that search engines like Google cannot normally 
+find or display in their search results.
+
+What is the Dark Web?
+The Dark Web is a small part of the internet that is intentionally hidden and usually requires 
+special software, such as Tor Browser, to access.
+
+
+                  Gateways to Anonymity: Tor & I2P
+
+
+ I2P is a privacy-focused network that uses garlic routing and encrypted tunnels to 
+ support communication and services within its own network.                 
+
+                 How does I2P work? (Step by Step)
+Suppose Alice wants to send a message to Bob using I2P.
+Step 1: Alice connects to the I2P network using I2P software.
+Step 2: Her software establishes encrypted tunnels through participating I2P routers.
+Step 3: Alice's message travels through the appropriate tunnels.
+Step 4: I2P's routing and encryption mechanisms help protect the communication from outside observation.
+Step 5: Bob receives the message through the relevant I2P communication paths.
+
+
+
+
+
+The Fuel of Illicit Trade: Cryptocurrency
+
+
+Illicit trade means buying or selling goods and services illegally.
+
+
+What is Monero?
+Monero is a cryptocurrency designed with privacy protections built into its transaction system.
+
+
+Blockchain forensics is the process of examining blockchain data to investigate transactions, identify patterns, 
+and potentially connect cryptocurrency activity to real-world entities.
+
+
+
+Example: Bitcoin investigation
+Suppose investigators are examining funds connected to a cryptocurrency scam.
+They might:
+1. Identify a Bitcoin address associated with the suspected activity.
+2. Examine its transaction history.
+3. Follow the movement of funds between addresses.
+4. Look for transactions involving known cryptocurrency exchanges.
+5. Compare the blockchain evidence with exchange records or other legally obtained evidence.
+6. Develop and test hypotheses about the people or services involved.
+
+
+
+Bitcoin transactions are publicly visible and can often be traced between addresses, although identifying
+ the people behind those addresses requires additional evidence. Monero provides stronger built-in transaction privacy, 
+ making public blockchain analysis more difficult. Blockchain forensics uses technical analysis and supporting evidence to investigate cryptocurrency activity.
+
+
+
+ The Investigator's Compass: Legal & Ethical Considerations
+
+
+ Jurisdiction is the legal authority of a country, court, or other authorized body to deal with a particular matter.
+
+Authorization means having the required legal permission or authority to perform a particular action.
+
+
+Important authorization terms
+A. Warrant
+A warrant is a formal legal authorization issued by a competent authority, usually a court or judge, permitting specified actions under applicable law.
+For example, a search warrant may authorize investigators to search a particular location or seize specified evidence.
+The exact requirements depend on the jurisdiction.
+B. Undercover authorization
+An undercover investigation involves an investigator concealing their official role or using an assumed identity to investigate suspected wrongdoing.
+Undercover activities may require specific authorization, oversight, and compliance with applicable laws and policies.
+For example, an authorized investigator might participate in an online environment to gather evidence about a suspected criminal operation.
+The investigator cannot assume that every undercover action is legally permitted.
+C. Probable cause
+Probable cause is a legal standard used in certain jurisdictions, particularly the United States.
+
+Entrapment generally refers to a situation in which law enforcement improperly induces or persuades someone to commit an offence they would not otherwise have committed.
+
+
+LEA Collaboration & Case Handling---
+
+A Law Enforcement Agency is an organization responsible for enforcing laws, investigating crimes, and helping bring offenders to justice
+
+
+"No Agency Is an Island"
+It means no single agency can solve every cybercrime problem alone
+
+
+What is Tor Browser?
+Tor Browser is a web browser designed to improve privacy by routing internet traffic through multiple volunteer-operated relays in the Tor network.
+Investigators may use it to access publicly available websites on the regular web or .onion services during an authorized investigation.
+
+
+What is a controlled environment?
+It is a computer setup designed to isolate investigation activities from everyday work and reduce security risks.
+
+
+
+A virtual machine is a computer system running inside another computer using virtualization software.
+
+
+Finding Needles in a Haystack: Dark Web Search Engines-------
+
+
+
+Ahmia
+Ahmia is a search engine that indexes publicly accessible websites on the Tor network. It also applies filters to exclude certain abusive content.
+
+
+
+NotEvil
+NotEvil is another search engine designed for finding websites on the Tor network. Its current website describes keyword searching across indexed .onion services.
+
+
+
+| Tool | Main purpose | Important limitation |
+|---|---|---|
+| **Ahmia** | Search indexed Tor websites with content filtering. | Filtering and incomplete indexing mean some websites will not appear. |
+| **NotEvil** | Search its index of Tor websites. | Coverage, accuracy, and filtering need verification. |
+| **Haystak** | Alternative search and discovery of Tor websites. | Availability and index coverage may vary. |
+| **Torch** | Discover indexed Tor websites through keyword searches. | Results may be outdated, misleading, or unsafe to visit. |
