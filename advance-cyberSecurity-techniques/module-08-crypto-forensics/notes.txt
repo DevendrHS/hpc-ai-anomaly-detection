@@ -1,0 +1,69 @@
+                     CRYPTO FORENSICS------------
+--------------------------------------------------------------------------                     
+
+Blockchain & Crypto Forensics
+
+LAB MANUAL
+
+
+
+Introduction to Blockchain & Crypto Forensics ----
+
+Blockchain forensics is the process of examining blockchain transactions to trace cryptocurrency
+ movements, identify suspicious activity, and investigate potential financial crimes.
+
+
+ What Are AML and CTF?
+These abbreviations are important for exams and compliance work.
+AML — Anti-Money Laundering
+Measures designed to prevent, detect, and report money laundering.
+CTF — Counter-Terrorist Financing
+Measures intended to prevent and detect the movement of funds used to finance terrorism.
+
+
+
+
+Cryptocurrency Fundamentals
+
+
+Digital Asset: An asset that exists in digital form.
+Virtual Asset: A digital representation of value that can be digitally traded, transferred, or used for payment under the applicable definition.
+Crypto Asset: A digital asset associated with cryptographic techniques and distributed ledger technology, depending on the applicable definition.
+
+
+
+
+| Feature | Fiat currency ka digital form | Cryptocurrency |
+|---|---|---|
+| Example | Bank account balance in INR | Bitcoin |
+| Value kiski represent hoti hai? | Traditional currency, jaise INR | Crypto asset ki market value |
+| Transaction system | Banks aur authorized payment systems ho sakte hain | Blockchain ya doosra relevant crypto network |
+| Kya government-issued currency hai? | Haan, jaise INR | Bitcoin jaise assets kisi government ki fiat currency nahi hain |
+| Value | INR ki value ko represent karta hai | Market demand aur supply ke saath badal sakti hai |
+
+
+Fiat currency traditional money hai, uska digital transfer cryptocurrency nahi hota, aur Bitcoin jaise crypto
+ assets decentralized blockchain networks par operate kar sakte hain. NFTs unique tokens represent karte hain, 
+ jabki stablecoins relatively stable value maintain karne ke liye design kiye jaate hain.
+
+
+
+ Blockchain ek type ki DLT hai jisme data blocks cryptographic links se connected hote hain aur network ke
+  consensus rules ke through ledger ki accepted state maintain ki jaati hai.
+
+
+
+  Blockchain is a type of distributed ledger technology in which records are organized into cryptographically 
+  linked blocks. Consensus mechanisms help network participants agree on the accepted ledger state. Public blockchains
+   can provide transaction transparency and traceability, while distributed nodes can improve resilience. Because modifying
+    an earlier block can invalidate subsequent links and require overcoming the network's consensus rules, altering accepted history is generally difficult, though not impossible in every circumstance.
+
+
+
+
+    Bank account number: Bank ke system mein account identify karta hai.
+Crypto wallet address: Blockchain par digital assets receive/send karne ke liye use hota hai.
+SWIFT/BIC: International payments mein financial institution ko identify karne mein madad karta hai.
+KYC: Know Your Customer; customer ki identity verify karne ki process.
+Blockchain analysis: On-chain transactions aur fund movements ka examination.
+Identity attribution: Blockchain address ya transaction ko real-world person se link karna, jiske liye additional evidence ki zaroorat ho sakti hai.
